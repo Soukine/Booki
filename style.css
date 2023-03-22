@@ -410,15 +410,15 @@ aside {
 }
 
 .card-four-text h2 {
-  margin-left: 12px;
+  margin-left: 8%;
 }
 
 /* Footer */
 footer {
   background: #F2F2F2;
   height: 218px;
-  width: 1339px;
   margin-left: 3%;
+  margin-right: 3%;
   margin-top: 60.5px;
 }
 
@@ -485,6 +485,7 @@ footer {
     height: 30vh;
     width: 90%;
     margin-left: 3%;
+    margin-right: 3%;
   }
 
   .pop {
@@ -537,7 +538,7 @@ footer {
 
   footer {
     height: 225px;
-    width: 880px;
+    margin-right: 3%;
   }
 
   .div2 {
@@ -752,7 +753,6 @@ footer {
   footer {
     height: 100%;
     width: 100%;
-    margin-left: 0;
   }
 
   .footer-info {
@@ -780,5 +780,3 @@ footer {
     margin-top: 50px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
