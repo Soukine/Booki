@@ -162,7 +162,7 @@ button.btn {
 }
 
 .filter h2 {
-  margin-right: 52px;
+  margin-right: 40px;
   font-size: 18px;
 }
 
@@ -172,7 +172,7 @@ button.btn {
   gap: 10px;
   border: 2px solid #D9D9D9;
   border-radius: 25px;
-  padding: 14px;
+  padding: 10px;
   font-size: 17px;
   font-weight: 700;
 }
@@ -464,6 +464,11 @@ footer {
     font-weight: 400;
   }
 
+  .filter-search {
+    gap: 22px;
+    margin-right: 3%;
+  }
+
   .card-pop-size {
     height: 16vh;
     width: 28%;
@@ -752,7 +757,8 @@ footer {
 
   footer {
     height: 100%;
-    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .footer-info {
