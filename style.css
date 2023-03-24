@@ -122,7 +122,7 @@ input.search-bar {
   padding-left: 17px;
 }
 
-button.btn {
+button.btn p {
   font-size: 18px;
   font-weight: 700;
   color: white;
@@ -148,7 +148,6 @@ button.btn {
 .filter-search,
 .filter-search a {
   display: flex;
-  align-items: center;
 }
 
 .filter-search {
@@ -167,18 +166,24 @@ button.btn {
 }
 
 .filter a {
-  justify-content: center;
-  color: black;
-  gap: 10px;
+  padding: 15px;
   border: 2px solid #D9D9D9;
   border-radius: 25px;
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
   font-size: 17px;
   font-weight: 700;
+  color: black;
 }
 
 .filter i {
   color: #0065FC;
+}
+
+i.fa-solid.fa-magnifying-glass {
+  display: none;
 }
 
 .filter a:focus,
@@ -487,7 +492,6 @@ footer {
   }
 
   aside {
-    height: 30vh;
     width: 90%;
     margin-left: 3%;
     margin-right: 3%;
@@ -516,6 +520,7 @@ footer {
 
   .card-pop-size {
     width: 30%;
+    height: 12vh;
   }
 
   .marseille h1 {
@@ -564,7 +569,6 @@ footer {
   p {
     font-size: 11px;
     font-weight: 500;
-    text-align: center;
   }
 
   h1 {
@@ -634,6 +638,30 @@ footer {
     margin-left: 5%;
   }
 
+  .filter a {
+    font-size: 11px;
+    width: 35%;
+  }
+
+  .filter i {
+    font-size: 17px;
+  }
+
+  .btn {
+    width: 15%;
+  }
+
+  button.btn p {
+    display: none;
+  }
+
+  i.fa-solid.fa-magnifying-glass {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+
   #slogan {
     margin-left: 5%;
   }
@@ -668,6 +696,11 @@ footer {
     border-radius: 0;
   }
 
+  .graph {
+    position: absolute;
+    right: 5%;
+  }
+
   .card-text-pop p,
   .card-text p,
   .footer-info p {
@@ -688,13 +721,14 @@ footer {
     margin-left: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .marseille h1 {
     margin-top: 0;
     margin-left: 0;
     margin-right: 16.5%;
+    position: relative;
+    left: 15%;
   }
 
   .plus {
@@ -707,10 +741,16 @@ footer {
   }
 
   .pop {
-    -moz-column-gap: 28.5%;
-    column-gap: 28.5%;
-    justify-content: center;
     margin-top: 5%;
+  }
+
+  .pop h1 {
+    position: relative;
+    left: 6%;
+  }
+
+  .card {
+    align-items: center;
   }
 
   .card-size {
